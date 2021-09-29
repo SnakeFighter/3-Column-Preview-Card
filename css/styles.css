@@ -1,0 +1,85 @@
+body {
+  font-family: sans-serif;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+}
+
+div {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.main-div {
+  width: 80%;
+  display: table;
+  height: auto;
+  margin:  100px auto;
+  border-radius: 25%;
+}
+
+.sedan-div {
+  background-color: orange;
+  border-radius: 3px 0 0 3px;
+
+}
+
+.suv-div {
+  background-color: teal;
+}
+
+.lux-div {
+  background-color: green;
+  border-radius: 0 3px 3px 0;
+}
+
+.car-card {
+  border: none;
+  display: table-cell;
+  padding: 25px 25px 25px 25px;
+  text-align: left;
+  top:0;
+}
+
+.attribution {
+  display: block;
+}
+
+.btn {
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 25px;
+   color: #000000;
+   font-family: Arial;
+   padding: 15px;
+   background-color: #FFFFFF;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+
+}
+
+.btn:hover {
+   background: rgba(255, 255, 255, 0.04);
+   border: solid #337FED 0;
+   -webkit-border-radius: 0;
+   -moz-border-radius: 0;
+   border-radius: 0;
+   text-decoration: none;
+}
+
+.sedan-btn {
+  color: orange;
+}
+
+.suv-btn {
+  color: teal;
+}
+
+.lux-btn {
+  color: green;
+}
