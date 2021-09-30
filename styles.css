@@ -1,0 +1,96 @@
+body {
+  background-color: hsl(0, 0%, 95%);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+}
+
+div {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: hsl(0, 0%, 95%);
+  font-family: 'Big Shoulders Display', cursive;
+}
+
+p {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+}
+
+.main-div {
+  width: 80%;
+  display: table;
+  height: auto;
+  margin:  100px auto;
+  border-radius: 25%;
+}
+
+.sedan-div {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 3px 0 0 3px;
+}
+
+.suv-div {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.lux-div {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 3px 3px 0;
+}
+
+.car-card {
+  border: none;
+  display: table-cell;
+  padding: 25px 25px 25px 25px;
+  text-align: left;
+  top:0;
+}
+
+.attribution {
+  display: block;
+}
+
+.btn {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 25px;
+  color: #000000;
+  font-family: Arial;
+  padding: 15px;
+  background-color: hsl(0, 0%, 95%);;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: hsla(0, 0%, 95%, 95%);
+
+}
+
+.sedan-btn {
+  color: hsl(31, 77%, 52%);
+}
+
+.suv-btn {
+  color: hsl(184, 100%, 22%);
+}
+
+.lux-btn {
+  color: hsl(179, 100%, 13%);
+}
+
+.attribution {
+  font-size: 11px; text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
