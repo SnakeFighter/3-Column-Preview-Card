@@ -1,6 +1,5 @@
 body {
-  font-family: sans-serif;
-  background-color: black;
+  background-color: hsl(0, 0%, 95%);
   margin: 0;
   padding: 0;
   text-align: center;
@@ -13,6 +12,16 @@ div {
   text-align: center;
 }
 
+h1 {
+  color: hsl(0, 0%, 95%);
+  font-family: 'Big Shoulders Display', cursive;
+}
+
+p {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+}
+
 .main-div {
   width: 80%;
   display: table;
@@ -22,17 +31,16 @@ div {
 }
 
 .sedan-div {
-  background-color: orange;
+  background-color: hsl(31, 77%, 52%);
   border-radius: 3px 0 0 3px;
-
 }
 
 .suv-div {
-  background-color: teal;
+  background-color: hsl(184, 100%, 22%);
 }
 
 .lux-div {
-  background-color: green;
+  background-color: hsl(179, 100%, 13%);
   border-radius: 0 3px 3px 0;
 }
 
@@ -49,37 +57,40 @@ div {
 }
 
 .btn {
-   -webkit-border-radius: 5px;
-   -moz-border-radius: 5px;
-   border-radius: 25px;
-   color: #000000;
-   font-family: Arial;
-   padding: 15px;
-   background-color: #FFFFFF;
-   text-decoration: none;
-   display: inline-block;
-   cursor: pointer;
-   text-align: center;
-
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 25px;
+  color: #000000;
+  font-family: Arial;
+  padding: 15px;
+  background-color: hsl(0, 0%, 95%);;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
 }
 
 .btn:hover {
-   background: rgba(255, 255, 255, 0.04);
-   border: solid #337FED 0;
-   -webkit-border-radius: 0;
-   -moz-border-radius: 0;
-   border-radius: 0;
-   text-decoration: none;
+  background-color: hsla(0, 0%, 95%, 95%);
+
 }
 
 .sedan-btn {
-  color: orange;
+  color: hsl(31, 77%, 52%);
 }
 
 .suv-btn {
-  color: teal;
+  color: hsl(184, 100%, 22%);
 }
 
 .lux-btn {
-  color: green;
+  color: hsl(179, 100%, 13%);
+}
+
+.attribution {
+  font-size: 11px; text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
